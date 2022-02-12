@@ -4,7 +4,25 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+main{
+    background-color: hsl(218, 28%, 13%);
 }
 h1,nav,h2,h3,h4,button{
     font-family: 'Raleway', sans-serif;
+}
+
+#testimonials{
+    background-color:  hsl(219, 30%, 18%);
+}
+.profile-pic{
+    border-radius: 50%;
+}
+nav,#intro-main,#early-access{
+    background-color: hsl(217, 28%, 15%);
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
 }
