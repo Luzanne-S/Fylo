@@ -25,6 +25,10 @@ nav{
 .nav-logo{
 width:fit-content;
 }
+.link,.productive-link{
+    text-decoration: none;
+}
+
 .link{
     text-decoration: none;
     font-size: small;
@@ -89,6 +93,27 @@ h1,.intro-p,h3,.features-p-1,.features-p-2,.features-p-3,.features-p-4{
  .features1,.features2,.features3,.features4{
      width:80%;
  }
+ 
+ #productive{
+     padding-left: 5%;
+ }
+ .productive-p{
+     width: 85%;
+ }
+
+ .productive-link{
+     line-height: 2;
+     color: hsl(176, 68%, 64%);
+ }
+ .productive-link:after{
+    display: block;
+    content: '';
+   width: 39%;
+   height: 1px;
+   background: hsl(176, 68%, 64%);
+   bottom: 0;
+   left: 0;
+ }
 #testimonials{
     background-color:  hsl(219, 30%, 18%);
 }
@@ -138,4 +163,27 @@ footer{
     .feature-icon{
         margin-top: 5%;
     }
+    #productive{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h2{
+        font-size:xx-large; 
+        width:50%;
+    }
+    .productive-content{
+        margin-top: 3%;
+        margin-left: 5%;
+        width:40%;
+    }
+    .productive-link:after{
+        display: block;
+        content: '';
+       width: 150px;
+       height: 1px;
+       background: hsl(176, 68%, 64%);
+       bottom: 0;
+       left: 0;
+     }
 }
