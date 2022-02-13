@@ -67,7 +67,7 @@ h1,.intro-p,h3,.features-p-1,.features-p-2,.features-p-3,.features-p-4{
     display: block;
     margin:auto;
 }
-.intro-btn{
+.intro-btn,.get-btn{
     width:250px;
     padding: 15px 10px;
     border-radius: 25px;
@@ -114,13 +114,30 @@ h1,.intro-p,h3,.features-p-1,.features-p-2,.features-p-3,.features-p-4{
    bottom: 0;
    left: 0;
  }
-#testimonials{
-    background-color:  hsl(219, 30%, 18%);
+
+
+.testimonial1,.testimonial2,.testimonial3{
+   padding:10px;
+   margin-bottom: 5px;
+   background-color:  hsl(219, 30%, 18%);
 }
 .profile-pic{
     border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
+input{
+    width:250px;
+    border-radius: 25px;
+    padding: 15px 10px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+#early-access{
+    padding: 6%;
+    text-align: center;
+}
 footer{
     background-color: hsl(216, 53%, 9%);
 }
@@ -163,12 +180,12 @@ footer{
     .feature-icon{
         margin-top: 5%;
     }
-    #productive{
+    #productive,#testimonials{
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    h2{
+    h2,h3{
         font-size:xx-large; 
         width:50%;
     }
@@ -186,4 +203,23 @@ footer{
        bottom: 0;
        left: 0;
      }
+    h3, #early-access,.early-p{
+        margin:auto;
+    }
+  
+    #early-access{
+        width:60%;
+        margin-top: 5%;
+        height: 320px;
+        border-radius: 10px;
+    }
+    .early-p{
+        width:75%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+          
+    }
+    input{
+        width:400px;
+    }
 }
