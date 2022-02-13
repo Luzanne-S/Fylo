@@ -4,8 +4,28 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    color: hsl(0, 0%, 100%);
     font-size: 14px;
+    margin:0;
+}
+a,body{
+    color: hsl(0, 0%, 100%);
+}
+nav{
+    display: flex; 
+    justify-items: end;
+    padding:3%;
+}
+
+.nav-links{
+    margin-left: auto;      
+}
+.nav-logo{
+width:fit-content;
+}
+.link{
+    text-decoration: none;
+    font-size: small;
+    margin-right: 0.5em;
 }
 main{
     background-color: hsl(218, 28%, 13%);
@@ -13,6 +33,45 @@ main{
 h1,nav,h2,h3,h4,button{
     font-family: 'Raleway', sans-serif;
 }
+h1{
+    text-align: center;
+    line-height: 1.5;
+
+}
+.intro-p{
+    text-align: center;
+    margin:auto;
+    width:85%;
+    margin-bottom: 10%;
+}
+
+.intro-image,.productive-img{
+    display: block;
+    margin:auto;
+    max-width:100%;
+    height:auto; 
+}
+.intro-content{
+    background-image: url(images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+}
+.intro-btn{
+    display: block;
+
+    margin:auto;
+    width:250px;
+    padding: 15px 10px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white; 
+    transition: 0.5s;     
+}
+.intro-btn:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
 
 #testimonials{
     background-color:  hsl(219, 30%, 18%);
