@@ -316,6 +316,9 @@ footer{
     input{
         width:400px;
     }
+    .error{
+        color:hsl(0, 100%, 63%);
+    }
     footer{
         margin-top: -10%;
         padding-left: 0px;
