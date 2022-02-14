@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css"/>
   <script src="https://kit.fontawesome.com/5d391d372a.js" crossorigin="anonymous"></script>
+  <script src="index.js" defer></script>
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 </head>
 <body>
@@ -119,7 +120,10 @@
   <p class="early-p">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
   questions, our support team would be happy to help you.
 </p>
-  <input type="email" placeholder="email@example.com"/> <button class="get-btn">Get Started For Free</button>
+<form name="myForm" onsubmit="return validateForm()">
+  <input type="text" name="name" placeholder="email@example.com"/> <button type="submit" value="send" class="get-btn">Get Started For Free</button>
+  <span class="error" id="erroremail"></span>
+</form>
 </div>
  <!--Footer-->
   <footer>
