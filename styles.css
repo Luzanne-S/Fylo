@@ -96,6 +96,7 @@ h1,.intro-p,h3,.features-p-1,.features-p-2,.features-p-3,.features-p-4{
  
  #productive{
      padding-left: 5%;
+     margin-bottom: 20%;
  }
  .productive-p{
      width: 85%;
@@ -114,9 +115,12 @@ h1,.intro-p,h3,.features-p-1,.features-p-2,.features-p-3,.features-p-4{
    bottom: 0;
    left: 0;
  }
- 
+ .quotes{
+    margin-bottom: -7%;
+
+ }
 #testimonials{
-    margin-bottom: 50%;
+    margin-bottom: 20%;
 }
 
 .testimonial1,.testimonial2,.testimonial3{
@@ -148,11 +152,20 @@ input{
     text-align: center;
 }
 #early-access{
+    width:90%;
     padding: 6%;
+    margin:auto;
     text-align: center;
+    position: relative;
+ 
 }
 footer{
+  padding-top: 400px;
+
     background-color: hsl(216, 53%, 9%);
+}
+.fa{
+    color: #fff;
 }
 
 @media(min-width:800px){
@@ -198,6 +211,9 @@ footer{
         flex-direction: row;
         justify-content: center;
     }
+    #productive{
+        margin-bottom: 10%;
+    }
     h2,h3{
         font-size:xx-large; 
         width:50%;
@@ -219,9 +235,14 @@ footer{
     h3, #early-access,.early-p{
         margin:auto;
     }
-    #testimonials{
+    .quotes{
+        margin-left: 6%;
+        margin-bottom: -2%;
+    }
+    #testimonials{ 
         width:90%;
         margin:auto;
+        margin-bottom: 10%;
     }
     
     .testimonial1,.testimonial2,.testimonial3{
@@ -236,6 +257,8 @@ footer{
         margin-top: 5%;
         height: 320px;
         border-radius: 10px;
+        position: relative;
+       margin:auto;
     }
     .early-p{
         width:75%;
@@ -245,5 +268,8 @@ footer{
     }
     input{
         width:400px;
+    }
+    footer{
+        margin-top: -10%;
     }
 }
