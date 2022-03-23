@@ -187,7 +187,15 @@ input{
     text-align: left;
     margin-left: 8%;
   }
-  
+  .up{
+    float: right;
+    height:35px;
+    padding: 10PX;
+    margin-right: 1%;
+    background-color: transparent;
+    border-radius: 70%;
+    border: 1px solid rgb(255, 255, 255);
+} 
 footer{
     padding: 100px 15px 20px;
     background-color: hsl(216, 53%, 9%);
@@ -342,6 +350,7 @@ footer{
            height:50px;
            margin-left: 10px;
     }
+
     footer{
         margin-top: -10%;
         padding-left: 0px;
