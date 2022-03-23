@@ -24,8 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./fylo.png)
-
+![](images/fylo.png)
 
 ### Links
 
